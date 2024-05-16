@@ -22,6 +22,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # streamlit run .\CGGTTS_Analyser.py --server.port 8888
 
 
+# NOTE: BIPM logo and IEEE logo are fetched from the internet. If you want to avoid the internet usage please comment the 2 lines (52 and 56 )
+
 import streamlit as st
 import pandas as pd
 import warnings
