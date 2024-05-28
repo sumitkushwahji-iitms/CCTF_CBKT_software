@@ -41,7 +41,7 @@ warnings.filterwarnings('ignore')
 
 st.set_page_config(page_title="BIPM Time Analyser", page_icon=":chart_with_upwards_trend:", layout="wide")
 st.title(":chart_with_upwards_trend: CGGTTS data analyser v1.0")
-st.markdown('<style>div.block-container{padding-top:1rem;}</style>', unsafe_allow_html=True)
+st.markdown('<style>div.block-container{padding-top:0.1rem;}</style>', unsafe_allow_html=True)
 # Display the Start MJD and End MJD input fields
 col1, col2 = st.columns(2)
 # Display the Start MJD and End MJD input fields
@@ -54,9 +54,7 @@ st.sidebar.image("https://www.bipm.org/documents/20126/27072194/Logo+BIPM+blue.p
 st.sidebar.write("")
 #IEEE UFFSC logo
 st.sidebar.image("https://www.fusfoundation.org/images/IEEE-UFFC.jpg", width=200)
-
 st.sidebar.header("Time & Frequency Capacity Building")
-
 st.markdown('----')  # Add a horizontal line for separation
 
 
