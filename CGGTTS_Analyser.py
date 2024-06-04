@@ -40,7 +40,7 @@ warnings.filterwarnings('ignore')
 
 
 st.set_page_config(page_title="BIPM Time Analyser", page_icon=":chart_with_upwards_trend:", layout="wide")
-st.sidebar.write("")
+# st.sidebar.write("")
 st.title(":chart_with_upwards_trend: CGGTTS data analyser v1.0")
 # st.markdown('<style>div.block-container{padding-top:1rem;}</style>', unsafe_allow_html=True)
 
